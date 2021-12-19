@@ -391,7 +391,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\u958B\u555F\u9053\u5177\u6B04"
+          m_StringArgument: "\u5207\u63DB\u9053\u5177\u6B04"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &248273632
@@ -617,7 +617,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\u95DC\u9589\u9053\u5177\u6B04"
+          m_StringArgument: "\u5207\u63DB\u9053\u5177\u6B04"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &851399590
@@ -1330,7 +1330,7 @@ Animator:
   m_GameObject: {fileID: 2021209664}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dd90e954f3be9b8458f5dc79504cf896, type: 2}
+  m_Controller: {fileID: 9100000, guid: c945fc0f22bac4346b2c0edc2ff53b17, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1351,8 +1351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 151cd5b999d6a554babf5c57cf20bcc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonControlUpAndDown: 0
-  item: 0
 --- !u!114 &2021209671
 MonoBehaviour:
   m_ObjectHideFlags: 0
