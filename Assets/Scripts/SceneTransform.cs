@@ -18,11 +18,16 @@ public class SceneTransform : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManager.LoadScene("GoToScene");
+        SceneManager.LoadScene(GoToScene);
     }
 
     private void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void sceneTransform(string SceneTransform)
+    {
+        GoToScene = SceneTransform;
     }
 }
