@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// 旋轉圖片場景的圖片編號，以及完成後文字會浮現
+/// </summary>
 public class GameControl : MonoBehaviour
 {
     [SerializeField]
