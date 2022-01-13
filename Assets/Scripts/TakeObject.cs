@@ -21,7 +21,7 @@ public class TakeObject : MonoBehaviour
     }
 
     /// <summary>
-    /// 點擊並拾取物品
+    /// 點擊並拾取
     /// </summary>
     private void OnMouseDown()
     {
@@ -32,6 +32,7 @@ public class TakeObject : MonoBehaviour
             takegressimg.SetActive(false);
         }
     }
+
 
     /// <summary>
     /// 滑入時特效
