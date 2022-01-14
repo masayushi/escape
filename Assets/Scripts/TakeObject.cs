@@ -10,10 +10,6 @@ public class TakeObject : MonoBehaviour
 
     public static bool youtakegrass;
 
-    public bool ischanging;
-
-    public Animator changeSize;
-
     private void Start()
     {
         takegressimg.SetActive(true);
@@ -30,22 +26,6 @@ public class TakeObject : MonoBehaviour
             youtakegrass = false;
 
             takegressimg.SetActive(false);
-        }
-    }
-
-
-    /// <summary>
-    /// 滑入時特效
-    /// </summary>
-    private void OnMouseEnter()
-    {
-        if (ischanging)
-        {
-            changeSize.SetBool("被點擊時", false);
-        }
-        else if (!ischanging)
-        {
-            changeSize.SetBool("被點擊時", true);
         }
     }
 }
