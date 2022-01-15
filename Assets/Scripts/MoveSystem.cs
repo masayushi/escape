@@ -7,6 +7,8 @@ using UnityEngine;
 public class MoveSystem : MonoBehaviour
 {
     public GameObject correctForm;
+
+
     private bool moving;
     private bool finish;
 

@@ -235,7 +235,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536f8cfb1aeb68048bb4f6cb6807f3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
+  mountain: 0
+  water: 0
+  opening: 0
+  leftDoorOpening: {fileID: 1510826823}
+  rightDoorOpening: {fileID: 1981224512}
+  door: {fileID: 1080397733}
+  leftDoor: {fileID: 1510826822}
+  rightDoor: {fileID: 1981224511}
+  pf: {fileID: 2007578475}
+  pm: {fileID: 399441628}
+  pw: {fileID: 125601007}
   correctForm: {fileID: 796632265}
+  piece: {fileID: 125601007}
 --- !u!1 &142053244
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +589,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536f8cfb1aeb68048bb4f6cb6807f3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
+  mountain: 0
+  water: 0
+  opening: 0
+  leftDoorOpening: {fileID: 0}
+  rightDoorOpening: {fileID: 0}
+  door: {fileID: 0}
+  leftDoor: {fileID: 0}
+  rightDoor: {fileID: 0}
+  pf: {fileID: 0}
+  pm: {fileID: 0}
+  pw: {fileID: 0}
   correctForm: {fileID: 1996683092}
+  piece: {fileID: 399441628}
 --- !u!1 &404012533
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &796632266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -843,7 +869,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796632265}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1098,11 +1124,15 @@ MonoBehaviour:
   fire: 0
   mountain: 0
   water: 0
+  opening: 0
   leftDoorOpening: {fileID: 1510826823}
   rightDoorOpening: {fileID: 1981224512}
   door: {fileID: 1080397733}
   leftDoor: {fileID: 1981224511}
   rightDoor: {fileID: 1510826822}
+  pf: {fileID: 2007578475}
+  pm: {fileID: 399441628}
+  pw: {fileID: 125601007}
 --- !u!1 &1269262551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1269262552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1193,7 +1223,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269262551}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1320,11 +1350,15 @@ MonoBehaviour:
   fire: 0
   mountain: 0
   water: 0
+  opening: 0
   leftDoorOpening: {fileID: 1510826823}
   rightDoorOpening: {fileID: 1981224512}
   door: {fileID: 1080397733}
   leftDoor: {fileID: 1510826822}
   rightDoor: {fileID: 1981224511}
+  pf: {fileID: 0}
+  pm: {fileID: 0}
+  pw: {fileID: 0}
 --- !u!1 &1741776408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,11 +1521,15 @@ MonoBehaviour:
   fire: 0
   mountain: 0
   water: 0
+  opening: 0
   leftDoorOpening: {fileID: 1510826823}
   rightDoorOpening: {fileID: 1981224512}
   door: {fileID: 1080397733}
   leftDoor: {fileID: 1981224511}
   rightDoor: {fileID: 1510826822}
+  pf: {fileID: 0}
+  pm: {fileID: 0}
+  pw: {fileID: 0}
 --- !u!1 &1996683092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,7 +1547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1996683093
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1582,7 +1620,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996683092}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1703,4 +1741,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536f8cfb1aeb68048bb4f6cb6807f3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
+  mountain: 0
+  water: 0
+  opening: 0
+  leftDoorOpening: {fileID: 1510826823}
+  rightDoorOpening: {fileID: 1981224512}
+  door: {fileID: 1080397733}
+  leftDoor: {fileID: 1510826822}
+  rightDoor: {fileID: 1981224511}
+  pf: {fileID: 2007578475}
+  pm: {fileID: 399441628}
+  pw: {fileID: 125601007}
   correctForm: {fileID: 1269262551}
+  piece: {fileID: 2007578475}

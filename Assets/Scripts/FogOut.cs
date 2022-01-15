@@ -9,7 +9,6 @@ public class FogOut : MonoBehaviour
     public float mouse;
     public SpriteRenderer fog;
 
-
     public bool ischanging;
 
     public Animator changeSize;
