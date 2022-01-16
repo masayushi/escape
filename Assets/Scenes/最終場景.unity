@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &125601008
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -482,7 +482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &399441629
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1219,12 +1219,12 @@ MonoBehaviour:
   opening: 0
   leftDoorOpening: {fileID: 1510826823}
   rightDoorOpening: {fileID: 1981224512}
-  door: {fileID: 0}
+  door: {fileID: 1511770991}
   leftDoor: {fileID: 1510826822}
   rightDoor: {fileID: 1981224511}
-  pf: {fileID: 0}
-  pm: {fileID: 0}
-  pw: {fileID: 0}
+  pf: {fileID: 2007578475}
+  pm: {fileID: 399441628}
+  pw: {fileID: 125601007}
 --- !u!1 &1511770991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,12 +1497,12 @@ MonoBehaviour:
   opening: 0
   leftDoorOpening: {fileID: 1510826823}
   rightDoorOpening: {fileID: 1981224512}
-  door: {fileID: 0}
+  door: {fileID: 1511770991}
   leftDoor: {fileID: 1981224511}
   rightDoor: {fileID: 1510826822}
-  pf: {fileID: 0}
-  pm: {fileID: 0}
-  pw: {fileID: 0}
+  pf: {fileID: 2007578475}
+  pm: {fileID: 399441628}
+  pw: {fileID: 125601007}
 --- !u!1 &1996683092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,7 +1620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &2007578476
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -14,9 +14,9 @@ public class DoorOpen : MonoBehaviour
 
     private void Start()
     {
-        leftDoorOpening = GetComponent<Animator>();
+        //leftDoorOpening = GetComponent<Animator>();
 
-        rightDoorOpening = GetComponent<Animator>();
+        //rightDoorOpening = GetComponent<Animator>();
 
         door.SetActive(true);
 
